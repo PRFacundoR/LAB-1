@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nosotros - Tienda en Línea</title>
+    <link rel="stylesheet" href="../bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+
+</head>
+<body>
+    <header><h1>Nosotros</h1></header>
+    <nav>
+        <ul>
+            <li><a href="#">Nosotros</a></li>
+            <li><a href="../index.html">Registro</a></li>
+            <li><a href="#">Pendientes</a></li>
+            <li class="">
+                <a href="#" class="">Contacto</a>
+            </li>
+        </ul>
+    </nav>
+    
+    <main id="principal">
+        <section>
+            <article>
+                <p>
+                    Bienvenido a nuestra tienda en línea, tu destino para encontrar productos
+                     de alta calidad y experiencias de compra excepcionales. Somos un equipo 
+                     apasionado de entusiastas de la tecnología, la moda y los productos 
+                     innovadores que trabajamos arduamente para ofrecerte lo mejor de lo mejor.
+                </p>
+                <!-- NO BORRAR INDICACIONES -->
+                <!-- 2-a) Incorporar el video1 de modo que sea compatible con varios
+                navegadores -->
+                
+                <!-- 2-b) Agregar los atributos necesarios para que 
+                    se comience a reproducir apenas se carga la página,
+                    tenga los botones de play y stop.
+                -->
+                <!-- 2-c) Establecer la etiqueta para que se vea el subtítulo
+                subvideo1-es.vtt (no requiere que funcione en el navegador) -->
+                <video autoplay controls muted>
+                    <source src="../video/Video1.mp4 " type="video/mp4">
+                    <source src="../video/Video1.ogv " type="video/ogg">
+                    <track label="Español" kind="subtitles" srclang="es" src="../video/Video1-es.vtt">
+                </video>
+            </article>
+            <article>
+                <h2>Nuestra Misión</h2>
+                <p>Nuestra misión es brindarte una experiencia de compra en línea 
+                    sin igual. Queremos que encuentres todo lo que necesitas en un 
+                    solo lugar, desde productos de última generación hasta artículos
+                     de moda que reflejen tu estilo y personalidad. Nos enorgullecemos
+                     de ofrecer productos que cumplan con los más altos estándares de 
+                     calidad, diseño y funcionalidad.
+                </p>
+            </article>
+            <article>
+                <h2>Nuestra Historia</h2>
+                <p>
+                    Todo comenzó con una idea y una pasión compartida por la 
+                    tecnología y el comercio electrónico. Hace más de una década, 
+                    un pequeño equipo de emprendedores decidió unir fuerzas para 
+                    crear una tienda en línea única. Desde entonces, hemos crecido y
+                     evolucionado, pero nuestra dedicación a la excelencia y la 
+                     satisfacción del cliente sigue siendo la misma.
+                </p>
+            </article>
+        </section>
+        <h2>Nuestro Plantel</h2>
+        <section id="cards" class="d-flex flex-wrap justify-content-evenly">
+
+        </section>
+    </main>
+    <script src="../js/generar-cards.js"></script>
+</body>
+</html>

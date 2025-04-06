@@ -1,0 +1,33 @@
+/*---- Modificar sólo lo que esté indicado ----*/
+
+/*-- 3-a) Incoporar la fuente que se encuentra en la carpeta font 
+        de modo que se compatible con varios navegadores.
+        Asignele como nombre su apellido.
+--*/ 
+
+
+/*-- 3-b) Aplicar a los títulos h2 la fuente incorporada  --*/
+
+h2 {
+        /* <- aquí */
+    font-size: 2em;
+    color: brown;
+}
+
+/* ------- FIN DE LAS MODIFICACIONES ----------*/
+
+/*----- No modificar lo que está debajo -----*/
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+

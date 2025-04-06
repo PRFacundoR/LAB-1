@@ -1,0 +1,27 @@
+3.Realice un breve informe sobre accesibilidad, como respuesta a las siguientes preguntas:
+
+a.¿Por qué es importante agregar el atributo lang en la etiqueta html?
+
+ Porque el atributo lang indica el idioma en que el navegador tiene que leer la pagina.
+
+b.¿En qué afecta que las imágenes no tengan el atributo alt?
+
+Afecta en que los ciegos no van a poder escuchar una breve descripción de la imagen, cuando activen la opcion de talkback.
+
+c.¿En qué ayuda tener establecida la etiqueta title que va en el head?
+
+Sirve para definir el título de la página web y la etiqueta no se muestra en la página en sí misma, pero aparece en la barra de título, cuando la página está abierta.
+
+d.¿Qué beneficio aporta tener correctamente colocadas las distintas etiquetas h1, h2, h3?
+
+El beneficio que aporta es el orden de importancia por el tamaño de los subtitulos.
+
+e.Un menú correcto, aporta a cuál de las 4 características de la ONTI N° 2/2014?
+
+1)Facilidad de Navegación: Un menú claro y bien organizado facilita a los usuarios encontrar y acceder a las diferentes funciones y secciones de una aplicación o sitio web.
+
+2)Experiencia del Usuario Mejorada: Un menú bien diseñado puede mejorar la experiencia del usuario al hacer que la navegación por la aplicación sea más intuitiva y eficiente.
+
+3)Accesibilidad: Un menú correctamente implementado puede hacer que la aplicación sea más accesible para personas con discapacidades visuales u otras limitaciones, al permitirles navegar y utilizar la aplicación de manera más efectiva.
+
+4)Eficiencia y Productividad: Un menú bien diseñado puede ayudar a los usuarios a realizar tareas de manera más rápida y eficiente, lo que contribuye a una mayor productividad.

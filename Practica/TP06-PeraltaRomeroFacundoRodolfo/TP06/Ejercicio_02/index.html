@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certificado</title>
+    <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap.min.css">
+</head>
+<body>
+    <main class="container">
+
+        <section class="row justify-content-center">
+            <form action="php/certificado.php"  method="post" id="formu" class="col-6 bg-light p-4">
+                <legend >Certificado de Alumno Regular</legend>
+                <section>
+                    <label for="Name" class="form-label">Nombre completo:</label>
+                    <input type="text" class="form-control" name="Nombre" id="Name">
+               
+               </section>
+                <section>
+                    <label for="DocPer" class="form-label" >DNI:</label>
+                    <input type="text" class="form-control mb-3" name="DNI" id="DocPer">
+                </section>
+
+                <section>
+                    <input type="submit" value="Generar" id="boton" class="btn btn-primary ">
+                </section>
+            </form>
+
+
+            <article class="col-12 mt-3 bg-warning">
+                <h2 class="text-center">Certificado de Alumno Regular</h2>
+                <p>La Facultad de Ciencias Exactas y Tecnología de la Universidad Nacional de Tucumán certifica que <strong id="persona"></strong> con DNI <strong id="dni"></strong> se encuentra actualmente regular en la carrera Programador Universitario.</p>
+                <p>A su pedido y para ser presentado ante QUIEN CORRESPONDA se extiende el presente certificado.</p>
+                <figure class="text-center">
+                    <img src="img/facet.jpeg" alt="">
+                </figure>
+            </article>
+        </section>
+    </main>
+    <script src="js/script.js">
+        
+    </script>
+</body>
+</html>

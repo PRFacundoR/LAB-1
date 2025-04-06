@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    
+}
+body{
+    background-color: aqua;
+   
+   
+}
+ 
+#contenedorEnlaces{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+#contenedorEnlaces li{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    background-color: rgb(140, 0, 255);
+}
+
+#contenedorEnlaces li a{
+    text-decoration: none;
+   
+    color: black;
+    font-size: 20PX;
+}
+
+#contenedorEnlaces li a:hover,
+#contenedorEnlaces li a:focus {
+    background-color: purple;
+}
+ h1, h2{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+h1{
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  
+}
+
+
+@media all and (min-width: 320px) {
+    #main1 {
+        display: flex;
+        flex-direction: row;
+        padding: 10PX;
+        
+    }
+     
+    #main1 section{
+        padding-left:10px ;
+    }
+
+    #main1 figure img {
+        width: 100%;
+    }
+    
+   #tabal1{
+    border-collapse: collapse;
+    width: 95%;
+    margin: 0 auto;
+   }
+
+   #tabla1 th, #tabla1 td{
+    border: 0.1em solid navy;
+    padding: 0.3em;
+   }
+
+   #tabla1{
+    background-color: wheat;
+   }
+
+   #tabla1 #tabla-encabezado{
+    display: none;
+   }
+
+   #tabla1 tr{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.7em;
+   }
+
+
+   #tabla1 td:nth-of-type(1)::before{
+    content: "Fecha";}
+   
+
+   #tabla1 td:nth-of-type(2)::before{
+    content: "Cuidad";
+   }
+
+   #tabla1 td:nth-of-type(3)::before{
+    content: "Lugar";
+   }
+
+   #tabla1 td::before{
+    background-color: gray;
+    padding: 0.3em;
+    margin-right: 0.5em;
+   }
+
+    #listCanc li:nth-child(odd){
+        background-color: antiquewhite;
+    }
+     
+    #listCanc li:nth-child(even){
+        background-color: rgb(241, 151, 33);
+    }
+
+    #videos{
+        display: flex;
+        flex-direction: column;
+         align-items: center;
+
+    }
+    
+
+    #videos article{
+        width: 95%;
+    }
+
+
+    video{
+        width: 100%;
+    }
+    
+}
+
+@media all and (min-width: 1024px) {
+    
+    #videos article{
+        width: 70%;
+    }
+    
+}

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo1.css">
+    <title>Encuesta</title>
+</head>
+<body>
+    <header><h1>Encuesta</h1></header>
+    <main>
+        
+            
+        <form action="../php/encuesta.php" method="post">
+           <section id="datosP"> 
+            <fieldset class="Titulo1">
+                <legend class="titulo1"><h2>Datos personales</h2></legend>
+            
+    
+            <article>
+        <label for="name">Nombre</label>
+        <input type="text" name="Nombre" required placeholder="Ingrese su nombre" maxlength="50" id="name">
+            </article>
+
+            <article>
+        <label for="mail">Correo</label>
+        <input type="email" name="Correo" required placeholder="Ingrese su casilla de mail" id="email">
+            </article>
+    
+            <article>
+        <label for="fecNac">Fecha de nacimiento</label>
+        <input type="date" name="Fecha de nacimiento" required value="2000-01-01" id="fecNac">
+            </article>
+
+            <article>
+        <label for="telf">Celular (con código de área, sin 0 ni 15) </label>
+        <input type="tel" name="Celular (con código de área, sin 0 ni 15)" pattern="[0-9]{10}" required placeholder="3811456789" maxlength="10" id="telf">
+            </article>
+            </fieldset>
+            </section>
+
+            <section id="Scarrera">
+                        <fieldset class="Titulo2" >
+                            <legend class="titulo2"><h2>Sobre la carrera</h2></legend>
+                        
+                <label for="carrera">Indique en la carrera que se inscribió originalmente:</label>
+                <select name="carreras" id="carrera">
+
+                    <option value="ninguna">No recursa la carrera</option>
+                    <option value="Programador Universitario" >Programador Universitario </option>
+                    <option value="Licenciatura en Informática">Licenciatura en Informática</option>
+                    <option value="Ingeniería en Informática">Ingenieria en Informática</option>
+                    <option value="Agrimesura">Agrimesura</option>
+
+                </select>
+                <fieldset class="contenedor-opciones">
+
+                    <legend>Recursa la carrera?</legend>
+                    
+                    <article class="opciones">
+                    <input type="radio" name="elección" id="si" value="Si">
+                    <label for="si">Si</label>
+                    
+                    </article>
+                    
+                    <article class="opciones">
+                    <input type="radio" name="elección" id="no" value="No" checked>
+                    <label for="no">No</label>
+                    </article>
+
+                    <legend>Materias que cursa:</legend>
+                    
+                    <article class="opciones">
+                    <input type="checkbox" name="algebra" id="alg">
+                    <label for="alg">Algebra</label>
+                    </article>
+
+                    <article class="opciones">
+                    <input type="checkbox" name="cálculo" id="cal" >
+                    <label for="cal">Cálculo I</label>
+                    </article>
+                    
+                    <article class="opciones">
+                    <input type="checkbox" name="laboratorio" id="lab" checked>
+                    <label for="lab">Laboratorio I</label>
+                    </article>
+                    
+                    <article class="opciones">
+                    <input type="checkbox" name="ecyl" id="ECyL">
+                    <label for="ECyL">Elementos de Computación y Lógica</label>                 
+                    </article>
+                    
+                    <article class="opciones">
+                    <input type="checkbox" name="otras" id="otra" >
+                    <label for="otra">Otras</label>
+                    </article>
+                </fieldset>
+                    </fieldset>
+            </section>
+
+            <section id="Smateria">
+                    <fieldset class="Titulo3"  >
+                        <legend class="titulo3"><h2>Sobre la materia</h2></legend>
+                    
+                <legend>Indique el horario de la comisión practica a la que asiste</legend>
+                <article>
+                <label for="Dia">Día:</label>
+                <select name="Dias" id="Dia">
+
+                    <option value="Martes">Martes</option>
+                    <option value="Miercoles">Miercoles</option>
+                    <option value="Viernes">Viernes</option>
+                    </select>
+                </article>
+                
+                <article>
+                    <label for = "hora"> Hora: </label>
+                    <input type="time" name="horario" id ="hora">
+                </article> 
+                
+                <article>
+                    <label for="Sastifacción">Indique el grado de satisfacción respecto a la materia: (Bajo)
+                        <input type="range" name="sastifecho" id="Sastifacción" min="0" max="100" step="5">
+                        (Alto)
+                    </label>
+                </article>
+                <article>
+                    <label for ="dictado">Del 1 al 10 como calificarías al dictado de la materia?  </label>
+                    <input type="number" min = "1" max ="10" name="dictMat" id ="dictado" value="5">
+                </article>
+                </fieldset>
+            </section>
+
+            <section id="boton">
+                <input type="submit" value="Enviar">
+                <input type="button" value="Limpiar">
+            </section>
+
+    </form>
+    </main>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda</title>
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+</head>
+<body>
+    <header class="text-center bg-primary text-white" > <h1>Tienda Saint Jonh</h1></header>
+   <main class="container-fluid row">
+    <section class="col-md-6">
+        <figure>
+            <img src="img/plata.webp" alt="sabána plateada" class="img-fluid" id="imagen">
+        </figure>
+    </section>
+
+    <section class="col-md-6 d-flex align-items-center">
+        <form action="php/tienda.php" method="post" class="w-100" id="formu">
+    
+                <section>
+                    <label for="sabana" class="form-label ">Selecciona un color de sábana:</label>
+                    <select name="sabanas" id="sabana" class="form-select">
+                        <option value="plateada" selected >Plateada</option>
+                        <option value="azul" >Azul</option>
+                        <option value="bordo" >Bordo</option>
+                        <option value="gris">Gris</option>
+                        <option value="verde">Verde</option>
+                    </select>
+                </section>
+            
+                <section class="mt-4">
+                    <button type="submit" id="Comprar Ahora" class="btn btn-success" > Comprar ahora</button>
+                </section>
+
+
+        </form>
+    </section>
+
+   </main>
+   <script src="js/script4.js"></script> 
+</body>
+</html>

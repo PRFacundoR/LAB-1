@@ -1,0 +1,55 @@
+body{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+caption{
+    background-color:rgb(58, 128, 233);
+    color: black solid;
+}
+table{
+    border-collapse: collapse;
+    border: 1px solid;
+    
+}
+
+tr, th, td{
+    border: 1px solid;
+    border-color: black;
+}
+
+th{
+    background-color:rgb(58, 128, 233);
+    color: rgb(253, 253, 253);
+}
+
+td{
+    width: 110px;
+}
+
+tr :hover{
+    background-color: antiquewhite;
+}
+
+.lab{
+    background-color: rgb(185, 185, 9);
+    color: aliceblue;
+}
+
+.ele{
+background-color: blueviolet;
+color: aliceblue;
+}
+
+.Lab{
+    color: burlywood;
+}
+
+.CAL{
+    color: aliceblue;
+    background-color: rgb(156, 94, 13);
+}
+
+.ALG{
+    color: aliceblue;
+    background-color: blue;
+}

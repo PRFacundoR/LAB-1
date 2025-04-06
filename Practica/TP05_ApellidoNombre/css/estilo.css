@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(79, 33, 131);
+}
+
+
+table {
+    border: 0.2em solid black;
+    border-collapse: collapse;
+}
+
+th {
+    border: 0.2em solid black
+}
+
+td {
+    border: 0.2em solid black
+}
+
+@media all and (min-width: 320px) {
+   #main1 figure img{
+       width: 100px;
+    }
+
+  table{
+        width: 100%;
+    }
+
+    #listCanc li:nth-child(odd){
+        background-color: antiquewhite;
+    }
+     
+    #listCanc li:nth-child(even){
+        background-color: rgb(241, 151, 33);
+    }
+
+    #videos{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+    }
+    #video article{
+        width: 95%;
+    }
+}
+
+@media all and (min-width: 1024px) {
+    
+   
+
+    #video article{
+        width: 70%;
+    }
+    
+}

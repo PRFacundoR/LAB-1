@@ -1,0 +1,2 @@
+Al navegar por el sitio escucho todo lo que esta escrito en la pagina, escucho los alt de las imagenes, cuando voy al menu desplegable me lee las opciones, y cuando escogo uno de los enlaces me describe su alt y cuando le hago clic a una opcion, me manda a ese lugar y me describe lo que tiene esa parte.
+En el formulario me detalla cada opcion si esta marcada o no, los titulos de las distintas partes, cuales son las casillas para seleccionar, la opcion de la casilla y me nombra los botones.

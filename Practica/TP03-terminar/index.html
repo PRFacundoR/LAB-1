@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="fútbol, reglas, torneos y equipos">
+    <meta name="author" content="Faciano Juan José">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Fútbol</title>
+</head>
+<body>
+    <nav>
+        <ul id="enlaces">
+            <li><a href="#Historia">
+                <figure>
+                    <img src="img/historia.png" alt="Libro">
+                    <p>Historia</p>
+                </figure>
+            </a></li>
+
+            <li><a href="#Reglas">
+                <figure>
+                    <img src="img/reglas.png" alt="Hoja con lapiz">
+                    <p>Reglas</p>
+                </figure>
+            </a></li>
+
+            <li><a href="#Torneos">
+                <figure>
+                    <img src="img/torneos.png" alt="Trofeo">
+                    <p>Torneo</p>
+                </figure>
+            </a></li>
+
+            <li><a href="#Equipos">
+                <figure>
+                    <img src="img/equipos.png" alt="Escudo">
+                    <p>Equipos</p>
+                </figure>
+            </a></li>
+
+            <li><a href="#Registro">
+                <figure>
+                    <img src="img/registro.png" alt="Escudo">
+                    <figcaption>Registro</figcaption>
+                </figure>
+            </a></li>
+        </ul>
+    </nav>
+    <header><h1>Fútbol</h1></header>
+    <main>
+        <section id="Registro">
+            <h2>Registro</h2>
+            
+            <form action="get" method="php/registro.php" >
+                <section>
+                    <label for="name">Nombre</label>
+                    <input type="text" name="Nombre" required id="name">
+                </section>
+                <section>
+                    <label for="mail">Correo</label>
+                    <input type="email" name="Correo" required placeholder="nombreusuario@gmail.com" id="email">
+                </section>
+                <section>
+                    <label for="password">Contraseña</label>
+                    <input type="text" name="Contraseña" required minlength="8" maxlength="20" id="password">
+                </section>
+                <section>
+                    <label for="fecNac">Fecha de nacimiento</label>
+                    <input type="date" name="Fecha de nacimiento" required value="2000-01-01" id="fecNac">
+                </section>
+                <section>
+                    <label for="telf">Teléfono</label>
+                    <input type="tel" name="Teléfono" pattern="[0-9]{10}" required placeholder="3811456789" maxlength="10" id="telf">
+                </section>
+                
+                <section id="Botón">
+                    <input type="submit" value="Registrar">
+                </section>
+
+            </form>
+        </section>
+        <section id="his">
+
+            <article id="Historia"><h2>Historia</h2></article>
+                <p>Propiamente dicha, <strong>la historia moderna del fútbol comienza en Gran Bretaña en el siglo XIX</strong>, cuando surgieron las primeras reglas unificadoras del fútbol de carnaval, comenzando a practicarse en asociaciones colegiales fuera de la época de festividades. De hecho, en 1863 las reglas de juego de la colegiatura de Cambridge fueron la base del código de reglas actual, tomando también normas del modo de juego de Sheffield.</p>
+                <p>Así, con un reglamento de 13 normas, el fútbol moderno fue promovido por la recién creada Football Association (FA). De allí también provino, aunque algunos años después, el término soccer, derivado de “association” y el sufijo –er, y <strong>surgió también la primera competición de ligas de la historia, la Football League en 1888</strong>. Su fin era recaudar los fondos suficientes para poder profesionalizar a los jugadores de la FA.</p>
+                <p>Hacia finales del siglo XIX y principios del XX, el fútbol a la inglesa se había extendido por toda Europa y luego a otros continentes, en parte gracias al sistema colonial europeo, y al intercambio comercial con las recientes repúblicas americanas.</p>
+                <p><strong>La primera liga de fútbol americana fue la argentina, fundada en 1891</strong>, y el primer partido internacional por fuera de Europa se disputó entre Argentina y Uruguay en 1901. En cambio, las condiciones económicas en Asia le impidieron al fútbol abandonar el ámbito meramente universitario hasta entrados los años 80 del siglo XX.</p>
+                <p><strong> La primera copa mundial de fútbol de la historia se jugó en 1930</strong>, que llegó a ser el mayor evento de este deporte en el globo entero. Luego surgieron la Copa Intercontinental en 1960, la Copa Libertadores sudamericana y la Liga de Campeones europea. El fútbol femenino surgió profesionalmente luego de la Primera Guerra Mundial, cuando aumentó la participación femenina en la sociedad y en el trabajo.</p>
+            <figure><img src="img/LabrunaJugando.jpg" id="partido" alt="Partido de fútbol"> <figcaption><em> Partido River - Boca</em></figcaption></figure>
+        </section>
+
+
+        <section id="reg">
+
+            <article id="Reglas"><h2>Reglas</h2></article>
+            <ul>
+                <li>
+                    <strong>El terreno del juego</strong>
+                    <p> El campo es rectangular y tendrá entre 90 a 120 metros de longitud y 45 a 90 metros de ancho. Está dividido en dos partes y marcado por líneas que definen:</p>
+                    <ul>
+                        <li> Marcación del campo de fútbol (líneas bandas, líneas meta, línea meta).</li>
+                        <li>Meta de la cancha.</li>
+                        <li>Las esquinas.</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>La pelota</strong>
+                    <ul>
+                        <li>Esférico</li>
+                        <li>De cuero u otro material permitido</li>
+                        <li>Tendrá una circunferencia entre 70 a 68 cm.</li>
+                        <li>Tendrá una circunferencia entre 70 a 68 cm.</li>
+                        <li>Presión entre 0.6 y 1.1.</li>
+                    </ul>
+                </li>
+                
+                <li><strong>Los jugadores</strong>
+                <p>11 jugadores titulares, incluyendo el arquero. 8 suplentes, y se permiten 5 cambios; mediante 3 ventanas para los mismos</p>
+                </li>
+                
+                <li><strong>Los jugadores</strong></li>
+                <p>Consta de: camiseta, shorts, medias y botines. Los colores del equipamiento debe ser diferenciado del equipo contrario.</p>
+                
+                <li><strong>El árbitro</strong></li>
+                <p>Cuida las reglas del juego y tiene facultad de amonestar a los jugadores.
+                    Tiene facultad de expulsar a un jugador al notar conductas violentas.
+                    Hace cumplir la duración reglamentaria del partido. Puede añadir tiempo según crea conveniente.
+                    Puede interrumpir o suspender un partido de creerlo necesario.
+                    Señala el comienzo, reanudación del juego y fin del partido.
+                </p>
+                
+                <li><strong>Los árbitros asistentes</strong></li>
+                <p>Existen dos árbitros asistentes del árbitro principal, quienes cumplen las funciones de indicar:
+                    Si el balón sale de la cancha.
+                    Tiros de esquina.
+                    Fuera de juegos.
+                    Saques de meta
+                    Gol marcado.
+                    Cambios de jugadores.
+                    Infracciones que el árbitro principal no pueda ver.
+                    Duración del partido.
+                </p>
+                
+                <li><strong>Duración del partido</strong></li>
+                <p>Tiene dos tiempos de 45 minutos cada uno. Hay un descanso no mayor de 15 minutos entre cada tiempo.</p>
+                
+                <li><strong>Saque de inicio</strong></li>
+                <p>
+                    Antes de iniciar el partido, en medio del campo se reúnen el árbitro y los capitanes de cada equipo para elegir qué parte del campo les tocará. Esta elección es echada a la suerte usando una moneda. El ganador podrá escoger. En el segundo tiempo intercambiarán de lado.
+                </p>
+                
+                <li><strong>Balón en juego o balón fuera de juego</strong>
+                    <ul>
+                        <p>Balón en juego: cuando la pelota está dentro de la cancha, mientras no se marque falta.<p>
+                        <p>Balón fuera de juego: cuando la pelota cruza la línea de banda o la línea de meta y si el árbitro interrumpe el partido.</p>
+                    </ul>
+                </li>
+               
+                <li><strong>Gol anotado</strong></li>
+                <p>Se marcará gol cuando la pelota atraviese por completo la línea de meta e ingrese al arco (conformado por dos postes y un travesaño), mientras que no haya falta previa en el equipo anotador.</p>
+                
+                <li><strong>Fuera de juego (offside o posición adelantada)</strong></li>
+                <p>Se considera fuera de juego al darse tres condiciones al mismo tiempo y estas son cuando un jugador le da pase a su compañero y este compañero está: <strong>en el campo rival mientras su equipo tiene la pelota, adelante de la pelota, o adelante del penúltimo rival</strong></p>
+                <p>Se cobra con tiro libre directo a favor del rival desde donde se produjo el offside</p>
+                
+                <li><strong>Faltas</strong></li>
+                <p>Las faltas se cobrarán con tiros libres. Se concede tiro libre directo al equipo afectado cuando un jugador comete una infracción contra el rival</p>
+                
+                <li><strong>Sanciones disciplinarias</strong></li>
+                <p>Las sanciones disciplinarias involucran infracciones sancionables como amonestación o expulsión y son impuestas mediante el uso de la tarjeta amarilla o roja, respectivamente.</p>
+                
+                <li><strong>Tiros libres</strong></li>
+                <p>Los tiros libres son cobrados después de una falta.</p>
+               
+                <li><strong>Penal</strong></li>
+                <p>Es una pena que es cobrada después de que un jugador comete una infracción (sancionable con tiro directo) dentro de su área contra el rival o toca el balón con su mano. El penal lo cobra un jugador frente a la portería.
+                </p>
+                
+                <li><strong>Saque de banda o saque lateral</strong></li>
+                <p>Es una manera de reanudar el juego cuando el balón atraviesa la línea de banda (por tierra o por aire).</p>    
+                <p> Debe ser cobrado por un adversario del último jugador que tocó la pelota. Este adversario lanza la pelota con las manos y por encima de la cabeza, desde donde salió el balón.
+                </p> 
+                
+                <li><strong>Saque de meta</strong></li>
+                <p>Es otra manera de reanudar el juego después de que el balón atraviesa la línea de meta (por tierra o por aire).</p>
+                <p>El arquero reanudará el juego desde su área si el último en tocar la pelota antes de su salida, fue un rival.</p>
+            </ul>
+        </section>
+
+        <section>
+            
+            <article id="Torneos">
+                <h2>Torneos</h2>
+                <section class="acomodartorneo">
+                    <figure><img src="img/FluLibertadores.jpg" class="imgtor" alt="Último campeón de la libertadores"></figure>
+                     <section id="liber">
+                    <h2>Copa Libertadores de América</h2>
+                    <p>Es un torneo anual internacional oficial de fútbol organizado por la Confederación Sudamericana de Fútbol, creado en 1960. Es uno de los torneos más prestigiosos en el mundo, y la más prestigiosa competición a nivel clubes de fútbol en Sudamérica.
+                    </p>
+                </section>
+            </article>
+
+            <article id="imgcen">
+            
+                <figure><img src="img/MancityChampion.jpg" class="imgtor" alt="Último campeón de la UEFA Champions League"></figure>
+                <section>
+                <h2>UEFA Champions League</h2>
+                <p>Es el torneo internacional oficial de fútbol más prestigioso a nivel de clubes en Europa. Organizado por su estamento continental, la UEFA, es disputada anualmente desde su instauración en la temporada 1955-56.</p>
+                </section>
+            </article>
+
+            <article class="img-cen" id="prem">
+                <figure><img src="img/MancityPremier.jpg" class="imgtor" alt="Último campeón de la Premier League"></figure>
+                <section>
+                <h2>Premier League</h2>
+                <p>Considerada la liga europea más relevante actualmente, la premier league es la máxima categoría del sistema de ligas de fútbol de Inglaterra. Comenzó a disputarse en la temporada 1992-93.</p>
+                </section>
+            </article>
+        </section>
+
+
+        <section>
+                <section id="coloriver">     
+            <article class="equipos" id="Equipos">
+                <figure><img src="img/EscudoRiver.png" class="escudo" alt="escudo de river plate"></figure>
+                <section class="con-column">
+                    <h2>River Plate</h2>
+                <h3>Leopoldo Bard, fundador y presidente del primer equipo.</h3>
+                <h3>Martín Demichelis, director técnico actual.</h3>
+
+                    <ul class="contactos">
+                    <li><a href="prensa@cariverplate.com.ar">
+                        <figure>
+                            <img src="img/mail.png" alt="Correo">
+                        </figure></a>
+                    </li>
+
+                    <li><a href="+4789-1202/03">
+                        <figure>
+                            <img src="img/telefono.png" alt="Telefono">
+                        </figure></a>
+                    </li>
+
+                    <li><a href="https://www.cariverplate.com.ar/">
+                        <figure>
+                            <img src="img/url.png" alt="Página web">
+                        </figure></a>
+                    </li>
+
+                    </ul>
+                </section>
+            </section>
+             </article>
+                <section id="colorboca">
+             <article class="equipos">
+                
+                <figure><img src="img/EscudoBoca.png" class="escudo" alt="escudo de boca juniors"></figure>
+                <section class="con-column" id="sectionboca">
+                    <h2>Boca Juniors</h2>
+                <h3>Esteban Baglietto, uno de los principales fundadores.</h3>
+                <h3>Diego Hernán Martínez, director técnico actual.</h3>
+                    <ul class="contactos">
+                    <li><a href="marketing@bocajuniors.com.ar">
+                        <figure>
+                            <img src="img/mail.png" alt="Correo">
+                        </figure></a>
+                    </li>
+
+                    <li><a href="+5777-1200">
+                        <figure>
+                            <img src="img/telefono.png" alt="Telefono">
+                        </figure></a>
+                    </li>
+
+                    <li><a href="https://www.bocajuniors.com.ar/">
+                        <figure>
+                            <img src="img/url.png" alt="Página web">
+                        </figure></a>
+                    </li>
+                    </ul>
+                </section>
+            </section>                
+             </article>
+
+        </section>
+
+    </main>
+    <footer>Copyright © Juan José Faciano</footer>
+</body>
+</html>

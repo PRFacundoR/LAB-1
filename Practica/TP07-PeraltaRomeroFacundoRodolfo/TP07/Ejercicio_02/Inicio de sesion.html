@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <title>Inicio de sesión</title>
+</head>
+<body>
+    <main>
+        <article class="container-fluid col-12 col-md-4">
+        <legend>Inicio de sesión</legend>
+        <form action="php/pagina2.php" method="post">
+            <section>
+                <label for="usu">Usuario:</label>
+                <input type="text" name="Usu" id="usu" class="form-control" >
+            </section>
+
+
+            <section class="d-flex flex-column">
+                <label for="contra" id="form-label">Contraseña:</label>
+                
+                <section class="d-flex flex-row ">
+                    <input type="password" name="Contra" id="contra" class="form-control">
+                    <figure class="col-1">
+                        <img src="img/closeeye.png" alt="" class="img-fluid" id="imagen">
+                    </figure>
+                </section>
+            
+            </section>
+            
+            <section >
+                <input type="submit" id="enviar" class="btn btn-primary ">
+            
+            </section>
+        </article>
+        </form>
+    </main>
+    <script src="js/script2.js"></script>
+</body>
+</html>

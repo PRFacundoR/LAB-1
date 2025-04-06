@@ -1,0 +1,19 @@
+Informe de Accesibilidad
+
+<img> con alt: Se utiliza la etiqueta <img> junto con el atributo alt para proporcionar texto alternativo a las imágenes. Esto permite que las personas con discapacidad visual puedan comprender el contenido visual a través de lectores de pantalla.
+
+<nav> y <ul>: Las etiquetas <nav> y <ul> se utilizan para crear una lista de enlaces de navegación. Proporcionan una estructura semántica que ayuda a los lectores de pantalla a entender la organización del contenido y a navegar por él de manera más eficiente.
+
+<header> y <footer>: Estas etiquetas se utilizan para definir el encabezado y el pie de página de la página web respectivamente. Proporcionan información importante sobre la estructura y el propósito de la página, lo que facilita la navegación para las personas que utilizan lectores de pantalla.
+
+<h1>, <h2>, <h3>: Se utilizan etiquetas de encabezado para estructurar jerárquicamente el contenido. Los títulos <h1> a <h3> ayudan a los usuarios a comprender la organización del contenido y la relación entre diferentes secciones de la página.
+
+<a> con href: Se utilizan etiquetas de anclaje <a> junto con el atributo href para crear enlaces a otras páginas web o secciones de la misma página. Esto permite a los usuarios navegar por el contenido de manera rápida y eficiente, especialmente cuando se utilizan lectores de pantalla.
+
+Atributos id y class: Los atributos id y class se utilizan para identificar y aplicar estilos a elementos específicos del contenido. Esto facilita la navegación y la comprensión del contenido, especialmente para usuarios que dependen de lectores de pantalla o que tienen discapacidades cognitivas.
+
+Etiquetas semánticas como <article>, <section>, <figure>, <figcaption>, <ul>, <li>, etc.: Estas etiquetas se utilizan para estructurar y organizar el contenido de manera semántica. Proporcionan información adicional sobre la función y el propósito de diferentes partes del contenido, lo que facilita su comprensión para una amplia gama de usuarios.
+
+Atributos de enlace adicionales: Se utilizan atributos de enlace adicionales como target="_blank" para abrir enlaces en una nueva pestaña del navegador, lo que proporciona una mejor experiencia de usuario para aquellos que pueden tener dificultades para navegar hacia atrás y adelante en las páginas web.
+
+En resumen, el código HTML proporcionado respalda la accesibilidad al utilizar una combinación de etiquetas semánticas, atributos de enlace y texto alternativo para imágenes. Esto ayuda a garantizar que el contenido sea accesible y comprensible para una amplia variedad de usuarios, incluidos aquellos con discapacidades visuales o cognitivas.

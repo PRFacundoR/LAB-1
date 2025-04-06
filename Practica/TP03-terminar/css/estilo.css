@@ -1,0 +1,140 @@
+*{
+    padding:0;
+    margin: 0;
+}
+#enlaces{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color:#F0EC5A
+}
+#enlaces figure img{
+ width:  40px;
+ height: auto;
+}
+header {
+    background-color: #E6C6F0;
+}
+header h1 {
+    text-align: center;
+}
+p {
+    margin: 1%;
+    padding: auto;
+}
+ul {
+width: 100%;
+}
+nav ul li {
+    margin: 4%;
+    width: 8%;
+    list-style-type: none;
+}
+a {
+    text-decoration: none;    
+}
+#reg ul li {
+    margin: 10%;
+}
+h2 {
+    text-align: center;
+    padding: 1%;
+}
+#his {
+    background-color: #E6C6F0;
+}
+#partido {
+    width: 80%;
+    height: auto;
+}
+figcaption {
+    text-align: center;
+}
+#reg {
+    background-color: #CDDBF5;
+}
+.imgtor {
+    width: 100%;
+    height: auto;
+    border-radius: 10%;
+}
+.acomodartorneo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.acomodartorneo figure {
+    width: 60vw;
+}
+.acomodartorneo figure img {
+        width: 100%;
+}
+.imgtor {
+    width: 100%;
+}
+.img-cen figure {
+    width: 60%;
+}
+.img-cen {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#Torneos {
+    background-color:#EB772D;
+}
+#imgcen {
+    display: flex;
+    flex-direction:row-reverse;
+    justify-content: center;
+    align-items: center;
+    background-color:#EB342D ;
+}
+#imgcen figure img {
+width: 100%;
+}
+
+#prem {
+    background-color:#EBB02D;
+}
+.escudo {
+    width: 30%;
+    height: auto;
+
+}
+.contactos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.contactos img {
+    width: 20%;
+    height: auto;
+}
+.equipos {
+    display:flex;
+    flex-direction: row;
+    justify-content:left;
+    align-items:center;
+}
+.secequi {
+    display: flex;
+    flex-direction: row;
+}
+.con-column {
+    display: flex;
+    flex-direction: column;
+}
+#colorboca {
+    background-color: #E6C6F0;
+}
+#coloriver {
+    background-color: burlywood;
+}
+footer { background-color: #316CF5;
+    color:antiquewhite;
+    text-align: center;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;}

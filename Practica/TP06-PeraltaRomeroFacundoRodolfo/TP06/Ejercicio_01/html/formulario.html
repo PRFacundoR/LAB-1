@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../bootstrap-5.3.2-dist/css/bootstrap.min.css">    
+    <title>Formulario</title>
+
+</head>
+<body>
+    <header class="text-center"><h1>Rick and Morty</h1></header>     <section>
+        <nav class="mb-3">
+            <ul class="nav  justify-content-center   gap-2 flex-column flex-md-column flex-lg-row flex-xxl-row">
+                <li class="nav-item col-lg-2">
+                <a href="../index.html" class="btn btn-primary d-block">Inicio</a>
+                </li>
+                <li class="nav-item col-lg-2">
+                    <a href="tabla.html" class="btn btn-primary d-block">Tabla</a>
+                </li>
+                <li class="nav-item col-lg-2">
+                    <a href="galeria.html" class="btn btn-primary d-block">Galeria</a>
+                </li>
+                <li class="nav-item col-lg-2">
+                    <a href="#" class="btn btn-primary d-block">Formulario</a>
+                </li>
+            </ul>
+        </nav>
+</section>
+
+<section class="container container-md container-fluid-lg container-fluid-xxl">
+    <section class="row">
+<main class="col-lg-6 mx-auto" >
+    <section  >
+        
+        
+        <form action="../php/contacto.php" method="post" class="border border-primary p-3 shadow">
+            <section>
+                <label for="name" class="form-label">Nombre</label>
+                <input type="text" class="form-control" name="Nombre" placeholder="pepe" required id="name">
+            </section>
+            <section>
+                <label for="mail" class="form-label">Correo</label>
+                <input type="email" class="form-control" name="Correo" required placeholder="nombreusuario@gmail.com" id="email">
+            </section>
+            <section>
+                <label for="telf" class="form-label">Teléfono</label>
+                <input type="tel" class="form-control" name="Teléfono" pattern="[0-9]{10}" required placeholder="3811456789" maxlength="10" id="telf">
+            </section>
+            <section class="mb-3">
+                <label for="Msj" class="form-label">Mensaje</label>
+                <textarea name="Mensaje" class="form-control" id="Msj" cols="30" rows="10" ></textarea>
+            </section>
+            <section  >
+                <input type="submit" value="Registrar" class="btn btn-success w-100 ">
+                </section>
+                <section>
+                <input type="reset" value="Limpiar" class="btn btn-secondary w-100">
+            </section>
+
+        </form>
+    </section> 
+
+
+</main>
+    </section>
+</section>
+<script src="../bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js">
+    
+</script>
+</body>
+</html>
